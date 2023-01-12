@@ -1,0 +1,54 @@
+.primery {
+        background: var(--color-maintitle);
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    // .primery__maintitle
+
+    &__maintitle {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 696px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--color-forbackground);
+        letter-spacing: 0.06em;
+    }
+
+    // .primery__button
+
+    &__button {
+        display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 216px;
+        height: 50px;
+        background: var(--color-hoverfocus);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 2;
+        align-items: center;
+        text-align: center;
+        color: var(--color-forbackground);
+        letter-spacing: 0.06em;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover, &:focus{
+            background-color: var(--color-hoverfocusbutton);
+        }
+    }
+}
+
+.overlay {
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/title-Img.jpg);
+    }
